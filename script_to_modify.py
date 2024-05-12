@@ -5,8 +5,11 @@ from code_generator import *
 df = generate_df()
 df6 = df.iloc[[5],[5]]
 df6 = df.count()
+df30 = df.iloc[[5],[5]]
+df3 = df.iloc[[5],[5]]
 df21 = df.iloc[[5],[5]]
 df3 = df.iloc[[5],[5]]
+df0 = df.sort_index()
 df1 = df.iloc[[5],[5]]
 df2 = df.count()
 G = nx.DiGraph()
